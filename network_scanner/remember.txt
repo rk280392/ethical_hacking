@@ -1,0 +1,10 @@
+default scapy has bug, doesn't take ip ranges to evaluate. 
+
+use this https://github.com/secdev/scapy
+
+
+git clone https://github.com/secdev/scapy
+
+cd scapy
+
+python3 setup.py install to install this scapy. This should fix your issue
